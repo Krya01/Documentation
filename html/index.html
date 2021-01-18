@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Doc’s documentation! &#8212; документация Doc 0.1</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="next" title="Введение" href="example1.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-doc-s-documentation">
+<h1>Welcome to Doc’s documentation!<a class="headerlink" href="#welcome-to-doc-s-documentation" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<p id="id1"><strong>Введение</strong></p>
+<p>Создание данного мобильного приложения необходимо для выполнения задания преподавателя дисциплины «Документирование и сертификация» для владельцев мобильных устройств на базе основных операционных систем AndroidOS.</p>
+<p id="id2"><strong>Основание для разработки</strong></p>
+<p>Основанием для разработки является практическое задание преподавателя дисциплины «Документирование и сертификация».</p>
+<p id="id3"><strong>Назначение разработки</strong></p>
+<p>Игрок открывает ячейки, стараясь не открыть ячейку с миной. Открыв ячейку с миной, он проигрывает. Мины расставляются после первого хода, поэтому проиграть на первом же ходу невозможно. Если под открытой ячейкой мины нет, то в ней появляется число, показывающее, сколько ячеек, соседствующих с только что открытой, «заминировано». Используя эти числа, игрок пытается рассчитать расположение мин. Если под соседними ячейками тоже нет мин, то открывается некоторая «не заминированная» область до ячеек, в которых есть цифры. «Заминированные» ячейки игрок может пометить, чтобы случайно не открыть их. Открыв все «не заминированные» ячейки, игрок выигрывает.</p>
+<p id="id4"><strong>Требования к функциональным характеристикам</strong></p>
+<p>Приложение должно выполнять следующие функции:</p>
+<ul class="simple">
+<li><p>«Ручная настройка поля» - в результате работы этого процесса пользователь самостоятельно настраивает параметры игрового поля;</p></li>
+<li><p>«Выбор сложности» - в этом процессе пользователь выбирает одно из 3х заготовленных игровых полей, которые классифицируются по сложности;</p></li>
+<li><p>«Выполнение игры» - этот процесс отвечает за работу и выполнение всех игровых функций;</p></li>
+<li><p>«Вывод результатов» - после выполнения данного процесса рассчитываются результаты и заносятся в память игры (таблицу).</p></li>
+</ul>
+<p id="id5"><strong>Требование к надёжности</strong></p>
+<p>Время ожидания не должно превышать 5 секунд.</p>
+<p>В случае возникновения ошибок выполняется перезапуск приложения.</p>
+<p id="id6"><strong>Условия эксплуатации</strong></p>
+<p>Срок обучения: 3 минут.</p>
+<p>Температура воздуха от -20 до +30 градусов Цельсия.</p>
+<p>Не допускать попадания воды в мобильное устройство.</p>
+<p id="id7"><strong>Требования к составу и параметрам технических средств</strong></p>
+<p>Разработанная программа должна быть совместима с операционной системой AndroidOS версии 4.4.</p>
+<p>Требуемое место на диске: 48 МБ.</p>
+<p id="id8"><strong>Требование к информационной и программной совместимости</strong></p>
+<p>Программная часть должна быть написана на базе Java.</p>
+<p>Реализация программной части должна поддерживать работу в среде разработки Android Studio.</p>
+<p id="id9"><strong>Требования к дизайну</strong></p>
+<p>Цифры – арабские.</p>
+<p>Цвет цифр (hex):</p>
+<ul class="CH">
+    <li><p>1 - #349148</p></li>
+    <li><p>2 - #1a26a3</p></li>
+    <li><p>3 - #c7222a</p></li>
+    <li><p>4 - #0808bd</p></li>
+    <li><p>5 - #87171d</p></li>
+    <li><p>6 - #1da398</p></li>
+    <li><p>7 - #4d12a1</p></li>
+    <li><p>8 - #4f4f4f</p></li>
+</ul>
+<p id="id10"><strong>Этапы разработки</strong></p>
+<p>Работа по созданию данного приложения разделяется на следующие этапы:</p>
+<ol class="arabic simple">
+<li><p>Оценка срока разработки</p></li>
+<li><p>Разработка функционала клавиш</p></li>
+<li><p>Разработка поля</p></li>
+<li><p>Разработка дизайна</p></li>
+<li><p>Тестирование приложения</p></li>
+<li><p>Отправка приложения</p></li>
+</ol>
+<p id="id11"><strong>Порядок контроля и приёмки</strong></p>
+<p>Должен быть произведён тест программы, затрагивающий весь функционал приложения.</p>
+<p>Дата получения проекта: 01.06.2020</p>
+<p>Дата завершения проекта: 02.06.2020</p>
+<p>Дата сдачи проекта: 03.06.2020</p>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Doc</a></h1>
+
+
+
+
+
+
+
+
+<h3>Навигация</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#id1">Введение</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id2">Основание для разработки</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id3">Назначение разработки</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id4">Требования к функциональным характеристикам</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id5">Требование к надёжности</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id6">Условия эксплуатации</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id7">Требования к составу и параметрам технических средств</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id8">Требование к информационной и программной совместимости</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id9">Требования к дизайну</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id10">Этапы разработки</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id11">Порядок контроля и приёмки</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="example1.html" title="следующая глава">Введение</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Yarochkina V.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
